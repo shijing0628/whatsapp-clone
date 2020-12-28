@@ -1,3 +1,11 @@
+# Full-Stack WhatsApp clone
+
+2020-12-28
+
+#### frontend: React, firebase(auth,hosting)
+
+#### backend: express(nodejs) mongodb to save chat data
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
