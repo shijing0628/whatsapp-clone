@@ -4,13 +4,13 @@ import './SidebarChat.css'
 
 
 
-function SidebarChat() {
+function SidebarChat({ roomTitle, romeMsg }) {
  return (
   <div className="sidebarChat">
    <Avatar src="https://images.clipartlogo.com/files/istock/previews/1006/100605257-ute-vector-girl-avatar-icon.jpg" />
    <div className="sidebarChat__info">
-    <h2>Room Name</h2>
-    <p>This is the last message</p>
+    <h2>{roomTitle}</h2>
+    <p>{romeMsg}</p>
    </div>
   </div>
  )

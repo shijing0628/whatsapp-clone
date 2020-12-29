@@ -12,6 +12,8 @@ import SidebarChat from '../SidebarChat/SidebarChat';
 
 
 function Sidebar() {
+ const roomTitle = ['Room1', 'Room2', 'Room3']
+ const roomMsg = ["this is the last message-1", "this is the last message-2", "this is the last message-3"]
  return (
   <div className="sidebar">
    <div className="sidebar__header">
@@ -36,9 +38,9 @@ function Sidebar() {
     </div>
    </div>
    <div className="sidebar__chats">
-    <SidebarChat />
-    <SidebarChat />
-    <SidebarChat />
+    <SidebarChat roomTitle={roomTitle[0]} romeMsg={roomMsg[0]} />
+    <SidebarChat roomTitle={roomTitle[1]} romeMsg={roomMsg[1]} />
+    <SidebarChat roomTitle={roomTitle[2]} romeMsg={roomMsg[2]} />
    </div>
   </div>
  )
